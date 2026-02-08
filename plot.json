@@ -33,22 +33,25 @@
 "classed": "geom2_text_coin",
 "aes": {
  "x": "x",
-"y": "y" 
+"y": "y",
+"label": "label" 
 },
 "params": {
- "na.rm": false,
+ "parse": false,
+"check_overlap": false,
 "na.rm": false,
-"label": "Flip 'coins'",
+"na.rm": false,
 "angle":       90,
 "size":       15,
-"fontface": "bold" 
+"fontface": "bold",
+"colour": "#000000" 
 },
 "types": {
  "y": "numeric",
 "x": "numeric",
+"label": "character",
 "PANEL": "integer",
-"group": "character",
-"label": "character" 
+"group": "character" 
 },
 "chunk_order": [],
 "nest_order": [],
@@ -436,7 +439,7 @@
 ],
 "title_size": "14.4pt",
 "options": {
- "width":      500,
+ "width":      600,
 "height":      400 
 },
 "span": {
