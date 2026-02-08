@@ -28,9 +28,37 @@
 "chunks": 1,
 "total": 1 
 },
-"geom2_rect_coin": {
+"geom2_text_coin": {
+ "geom": "text",
+"classed": "geom2_text_coin",
+"aes": {
+ "x": "x",
+"y": "y" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"label": "Flip 'coins'",
+"angle":       90,
+"size":       15,
+"fontface": "bold" 
+},
+"types": {
+ "y": "numeric",
+"x": "numeric",
+"PANEL": "integer",
+"group": "character",
+"label": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom3_rect_coin": {
  "geom": "rect",
-"classed": "geom2_rect_coin",
+"classed": "geom3_rect_coin",
 "aes": {
  "xmin": "xmin",
 "xmax": "xmax",
@@ -58,9 +86,9 @@
 "chunks": 1,
 "total": 1 
 },
-"geom3_segment_coin": {
+"geom4_segment_coin": {
  "geom": "segment",
-"classed": "geom3_segment_coin",
+"classed": "geom4_segment_coin",
 "aes": {
  "x": "x",
 "xend": "xend",
@@ -85,9 +113,9 @@
 "chunks": 1,
 "total": 1 
 },
-"geom4_text_coin": {
+"geom5_text_coin": {
  "geom": "text",
-"classed": "geom4_text_coin",
+"classed": "geom5_text_coin",
 "aes": {
  "x": "x",
 "y": "y" 
@@ -111,9 +139,9 @@
 "chunks": 1,
 "total": 1 
 },
-"geom5_rect_coin": {
+"geom6_rect_coin": {
  "geom": "rect",
-"classed": "geom5_rect_coin",
+"classed": "geom6_rect_coin",
 "aes": {
  "xmin": "xpos - 1.2",
 "xmax": "xpos + 1.2",
@@ -150,9 +178,9 @@
 "chunks": 1,
 "total": 1 
 },
-"geom6_text_coin": {
+"geom7_text_coin": {
  "geom": "text",
-"classed": "geom6_text_coin",
+"classed": "geom7_text_coin",
 "aes": {
  "x": "x",
 "y": "y",
@@ -189,9 +217,9 @@
 "chunks": 1,
 "total": 1 
 },
-"geom7_text_coin": {
+"geom8_text_coin": {
  "geom": "text",
-"classed": "geom7_text_coin",
+"classed": "geom8_text_coin",
 "aes": {
  "x": "12",
 "y": "-0.04",
@@ -226,9 +254,9 @@
 "chunks": 1,
 "total": 1 
 },
-"geom8_text_coin": {
+"geom9_text_coin": {
  "geom": "text",
-"classed": "geom8_text_coin",
+"classed": "geom9_text_coin",
 "aes": {
  "x": "xpos",
 "y": "y",
@@ -277,10 +305,10 @@
 "selected": "1",
 "levels": [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100" ],
 "update": [
- "geom5_rect_coin",
-"geom6_text_coin",
+ "geom6_rect_coin",
 "geom7_text_coin",
-"geom8_text_coin" 
+"geom8_text_coin",
+"geom9_text_coin" 
 ] 
 } 
 },
@@ -311,12 +339,7 @@
 "width_proportion": [        1 ],
 "height_proportion": [        1 ] 
 },
-"panel_background": {
- "fill": "#FFFFFF",
-"colour": "transparent",
-"size":      0.5,
-"linetype":        1 
-},
+"panel_background": [],
 "panel_border": [],
 "grid_major": {
  "colour": "#E5E5E5",
@@ -370,7 +393,7 @@
 },
 "axis1": {
  "x": [],
-"xrange": [        0,     16.5 ],
+"xrange": [        0,     17.5 ],
 "xline": false,
 "xticks": false,
 "y": [
@@ -423,13 +446,14 @@
 },
 "geoms": [
  "geom1_segment_coin",
-"geom2_rect_coin",
-"geom3_segment_coin",
-"geom4_text_coin",
-"geom5_rect_coin",
-"geom6_text_coin",
+"geom2_text_coin",
+"geom3_rect_coin",
+"geom4_segment_coin",
+"geom5_text_coin",
+"geom6_rect_coin",
 "geom7_text_coin",
-"geom8_text_coin" 
+"geom8_text_coin",
+"geom9_text_coin" 
 ] 
 } 
 },
